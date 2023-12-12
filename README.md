@@ -1,1 +1,3 @@
 # odin-recipes
+
+This is the first project in The Odin Project's Foundation Course. By the end of this project I will be able to...
