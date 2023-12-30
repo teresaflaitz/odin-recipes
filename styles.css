@@ -3,24 +3,59 @@
     /*color: #780000;*/
     font-family: 'Trebuchet MS', sans-serif;
 }
+body{
+    margin: 0;
+}
+
+#nav-bar {
+    background-color: #780000;
+    height: 60px;
+    margin: 0;
+}
 
 .title {
     color: #c1121f;
-    background-color: #fdf0d5;
+    /*background-color: #fdf0d5;*/
     text-align: center;
+}
+
+.main-body{
+    display: inline-block;
+    margin-left: 120px;
+    width: 1000px;
 }
 
 .main-image {
     display: block;
     margin-left:auto;
     margin-right: auto;
-    max-width: 500px;
+    width: 500px;
+}
+
+.image-size{
+    max-width: 100%;
+}
+
+.attribution {
+    font-size: smaller;
+}
+
+.body-text{
+    /*margin-left: 100px;*/
 }
 
 h2, h3 {
     color: #669bbc;
 }
 
-.attribution {
-    font-size: smaller;
+#side-bar {
+    vertical-align: top;
+    float: right;
+    margin-right: 120px;
+    
+}
+
+.sb-content {
+    border-left: 1px solid;
+    padding: 10px;
 }
